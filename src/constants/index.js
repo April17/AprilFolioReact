@@ -1,28 +1,24 @@
 import {
     mobile,
     backend,
-    creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
     redux,
     tailwind,
-    nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    infosys,
+    cognizant,
     carrent,
     jobit,
     tripguide,
     threejs,
+    amplify,
+    cloudwatch,
+    s3,
+    lambda,
   } from "../assets";
   
   export const navLinks = [
@@ -42,7 +38,7 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "React Developer",
       icon: web,
     },
     {
@@ -52,11 +48,7 @@ import {
     {
       title: "Backend Developer",
       icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    }
   ];
   
   const technologies = [
@@ -73,10 +65,6 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
@@ -89,14 +77,6 @@ import {
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
     },
@@ -105,66 +85,58 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "amplify",
+      icon: amplify,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "cloudwatch",
+      icon: cloudwatch,
+    },
+    {
+      name: "s3",
+      icon: s3,
+    },
+    {
+      name: "lambda",
+      icon: lambda,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Sr. Software Developer ",
+      company_name: "Cognizant",
+      icon: cognizant,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "August 2021 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Work as a Front-End Developer using React.js, Redux.js and many other technologies to create user-friendly web applications for clients.",
+        "Built reusable cross-platform components and front-end libraries for future use.",
+        "Optimized components for maximum performance across a vast array of web-capable devices and browsers.",
+        "Used React.js, React Hooks and Redux.js to build the UI and do state management.",
+        "Used React.js to implement rich functions in various pages: form validation, grid list, search, sort, multi-selection, tags-input, advanced/custom directives.",
+        "Used Redux.js to manage global state used by multiple components in different levels of the Application.",
+        "Involved in writing application-level code to interact with REST APIs using AJAX, JSON.",
+        "Used Higher-Order Component for reusing component logic.",
+        "Create web pages and components using Figma and user stories.",
+        "Work with a group in an agile environment to enable fast past development cycles which allows finishing projects on time and meeting specification.",
+        "Recreating an existing app from using AWS Lambda to Spring Boot allows a more robust back-end.",
+        "Create a React Native App using Expo, React Navigation and material UI for Android in order to reach more customers.",
+        "Worked closely with UX teams to turn mockups into layout/styles and fixed stylesheet conflict bugs.",
+        "Maintained the application, implemented add-on features, updates, and case documents."
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Full-Stack Developer ",
+      company_name: "Infosys",
+      icon: infosys,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "November 2019 - August 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Work as Dell Boomi Production Support with client Blue Shield of California using Dell Boomi to support 200+ processes and solving data errors, login errors etc to improve stability and shorten down time on business side.",
+        "Analyzed process deployments using Dell Boomi to keep processes not meeting requirements out of production which will prevent duplication errors, run time errors etc that will impact business operation.",
+        "Managed and revamped support documentations using excel and VBA to create 2 automation tools which can check 100+ fields in one click and give analyzed results saving around $12,480 yearly from manual work.",
+        "Managed and revamped system detail documentations using excel and VBA to create a search to find all connectors using same username which helps support team update all connectors to prevent account lock out in all environments.",
       ],
     },
   ];
