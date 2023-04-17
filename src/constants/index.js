@@ -13,7 +13,7 @@ import {
     cognizant,
     carrent,
     jobit,
-    tripguide,
+    pokeball,
     threejs,
     amplify,
     cloudwatch,
@@ -35,6 +35,14 @@ import {
       title: "Contact",
     },
   ];
+
+  const overview = {
+    text: "I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!"
+  }
+
+  const projectOverView = {
+    text: "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively."
+  }
   
   const services = [
     {
@@ -170,28 +178,30 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "AprilFolio",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
-          name: "react",
+          name: "javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "three.js",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/April17/AprilFolio",
+      live_demo:"http://threejstestproject-dev.s3-website.us-east-2.amazonaws.com/",
+      video_demo:""
     },
     {
-      name: "Job IT",
+      name: "Dungeon Offline",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -204,24 +214,26 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/April17/Mod5_project",
+      live_demo:"",
+      video_demo:"https://www.youtube.com/watch?v=nCkT6MDTnR0"
     },
     {
-      name: "Trip Guide",
+      name: "Pokéball",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "aws_lambda",
           color: "green-text-gradient",
         },
         {
@@ -229,9 +241,11 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: pokeball,
+      source_code_link: "https://github.com/April17/pokemon_card_frontend_v2",
+      live_demo:"https://master.d3keg1p12xavsq.amplifyapp.com/",
+      video_demo:""
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, overview, projectOverView };

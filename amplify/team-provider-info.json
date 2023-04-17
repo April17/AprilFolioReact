@@ -1,0 +1,20 @@
+{
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-aprilfolio-prod-220450-authRole",
+      "UnauthRoleArn": "arn:aws:iam::456082219467:role/amplify-aprilfolio-prod-220450-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::456082219467:role/amplify-aprilfolio-prod-220450-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-aprilfolio-prod-220450-deployment",
+      "UnauthRoleName": "amplify-aprilfolio-prod-220450-unauthRole",
+      "StackName": "amplify-aprilfolio-prod-220450",
+      "StackId": "arn:aws:cloudformation:us-east-2:456082219467:stack/amplify-aprilfolio-prod-220450/629bbc50-dcdd-11ed-abd3-02f53df4d56a",
+      "AmplifyAppId": "d1e11zy2q2iflr"
+    },
+    "categories": {
+      "hosting": {
+        "S3AndCloudFront": {}
+      }
+    }
+  }
+}
