@@ -11,8 +11,8 @@ import {
     git,
     infosys,
     cognizant,
-    carrent,
-    jobit,
+    aprilfolio,
+    dungeon_offline,
     pokeball,
     threejs,
     amplify,
@@ -178,55 +178,11 @@ import {
   
   const projects = [
     {
-      name: "AprilFolio",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "javascript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "three.js",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/April17/AprilFolio",
-      live_demo:"http://threejstestproject-dev.s3-website.us-east-2.amazonaws.com/",
-      video_demo:""
-    },
-    {
-      name: "Dungeon Offline",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/April17/Mod5_project",
-      live_demo:"",
-      video_demo:"https://www.youtube.com/watch?v=nCkT6MDTnR0"
-    },
-    {
       name: "Pokéball",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A full-stack e-commerce app that sells Pokémon Trade Cards with PayPal integration.",
+      demo_account:"demo@example.com",
+      demo_password:"Abc12345678!",
       tags: [
         {
           name: "react",
@@ -245,6 +201,52 @@ import {
       source_code_link: "https://github.com/April17/pokemon_card_frontend_v2",
       live_demo:"https://master.d3keg1p12xavsq.amplifyapp.com/",
       video_demo:""
+    },
+    {
+      name: "AprilFolio",
+      description:
+        "A full Three.js based JavaScript Portfolio prototype used to test new ideas in 3D applications with some custome texture and animations.",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "three.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: aprilfolio,
+      source_code_link: "https://github.com/April17/AprilFolio",
+      live_demo:"http://threejstestproject-dev.s3-website.us-east-2.amazonaws.com/",
+      video_demo:""
+    },
+    {
+      name: "Dungeon Offline",
+      description:
+        "A full-stack application that runs on React.js and Rails API. This is a game that store player's game progress and let them get back to where they are in the next login.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "PostgreSql",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: dungeon_offline,
+      source_code_link: "https://github.com/April17/Mod5_project",
+      live_demo:"",
+      video_demo:"https://www.youtube.com/watch?v=nCkT6MDTnR0"
     },
   ];
   

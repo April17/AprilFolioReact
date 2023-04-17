@@ -34,8 +34,8 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import aprilfolio from "./aprilfolio.png";
+import dungeon_offline from "./dungeon_offline.png";
 import pokeball from "./pokeball.png";
 
 export {
@@ -72,7 +72,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
+  aprilfolio,
+  dungeon_offline,
   pokeball,
 };
