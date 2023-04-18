@@ -37,7 +37,7 @@ import tesla from "./company/tesla.png";
 import aprilfolio from "./aprilfolio.png";
 import dungeon_offline from "./dungeon_offline.png";
 import pokeball from "./pokeball.png";
-
+import metaversus from "./metaversus.png";
 export {
   logo,
   backend,
@@ -75,4 +75,5 @@ export {
   aprilfolio,
   dungeon_offline,
   pokeball,
+  metaversus
 };

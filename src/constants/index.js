@@ -14,6 +14,7 @@ import {
     aprilfolio,
     dungeon_offline,
     pokeball,
+    metaversus,
     threejs,
     amplify,
     cloudwatch,
@@ -177,6 +178,29 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Metaversus",
+      description:
+        "A Next.js front page app that explain what Metaversus is about, how to start it and what's new about it.",
+      tags: [
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "framer motion",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind_css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: metaversus,
+      source_code_link: "https://github.com/April17/metaversus",
+      live_demo:"https://main.dkigblllmeue4.amplifyapp.com/",
+      video_demo:""
+    },
     {
       name: "Pokéball",
       description:
