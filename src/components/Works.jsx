@@ -16,35 +16,37 @@ const ProjectCard = ({index, name, description, demo_account, demo_password, tag
           scale: 1,
           speed: 450
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-full flex flex-col"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-full flex flex-col justify-between"
       >
-        <div className="relative w-full h-[230px]">
-          <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl"/>
-          <div className="absolute inset-0 flex justify-end m-3 card-image_hover">
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img src={github} alt={github} className="w-1/2 h-1/2 object-contain"/>
+        <div className="flex flex-col">
+          <div className="relative w-full h-[230px]">
+            <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl"/>
+            <div className="absolute inset-0 flex justify-end m-3 card-image_hover">
+              <div
+                onClick={() => window.open(source_code_link, "_blank")}
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img src={github} alt={github} className="w-1/2 h-1/2 object-contain"/>
+              </div>
+              {live_demo ? <div
+                onClick={() => window.open(live_demo, "_blank")}
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img src={live} alt={live} className="w-1/2 h-1/2 object-contain"/>
+              </div> : null}
+              {video_demo ? <div
+                onClick={() => window.open(video_demo, "_blank")}
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img src={video} alt={video} className="w-1/2 h-1/2 object-contain"/>
+              </div> : null}
             </div>
-            {live_demo ? <div
-              onClick={() => window.open(live_demo, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img src={live} alt={live} className="w-1/2 h-1/2 object-contain"/>
-            </div> : null}
-            {video_demo ? <div
-              onClick={() => window.open(video_demo, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img src={video} alt={video} className="w-1/2 h-1/2 object-contain"/>
-            </div> : null}
           </div>
-        </div>
-        <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px]">{description}</p>
-          {demo_account ? <p className="mt-2 text-secondary text-[14px]">Demo Account: {demo_account} <br/> Demo Password: {demo_password}</p> : null}
+          <div className="mt-5">
+            <h3 className="text-white font-bold text-[24px]">{name}</h3>
+            <p className="mt-2 text-secondary text-[14px]">{description}</p>
+            {demo_account ? <p className="mt-2 text-secondary text-[14px]">Demo Account: {demo_account} <br/> Demo Password: {demo_password}</p> : null}
+          </div>
         </div>
         <div className="mt-4 flex flex-warp gap-2">
           {tags.map(tag => 
