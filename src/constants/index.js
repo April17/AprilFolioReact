@@ -212,7 +212,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "framer motion",
+          name: "framer_motion",
           color: "green-text-gradient",
         },
         {

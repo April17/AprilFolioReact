@@ -27,8 +27,9 @@ import cloudwatch from "./tech/cloudwatch.png";
 import lambda from "./tech/lambda.png";
 import s3 from "./tech/s3.png";
 
-import infosys from "./company/infosys.png"
-import cognizant from "./company/cognizant.png"
+import infosys from "./company/infosys.png";
+import cognizant from "./company/cognizant.png";
+import amex from "./company/amex.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -68,6 +69,7 @@ export {
   lambda,
   infosys,
   cognizant,
+  amex,
   meta,
   shopify,
   starbucks,
