@@ -11,7 +11,7 @@ import {
     git,
     infosys,
     cognizant,
-    AMEX,
+    amex,
     aprilfolio,
     dungeon_offline,
     pokeball,
@@ -120,11 +120,11 @@ import {
       {
       title: "Software Engineer II",
       company_name: "American Express",
-      icon: AMEX,
+      icon: amex,
       iconBg: "#383E56",
       date: "June 2023 - Present",
       points: [
-        "Design and build an in-house library and pattern allow engineers to use Copilot to write code and test.",
+        "Design and build an in-house library and pattern allow engineers to use Copilot to write code and tests.",
         "Help migrate applications from V5 to V6, create guidelines and steps on modification of the applications allows other engineers to migrate other modules easier.",
         "Helps in siteminder projects, create scripts to generate 33 language packages in 25 different locales which saves me time from lots of manual work and allows faster deployment in test environments.",
         "Design and build login persistence feature logout redirect functionality let users back to their custom login page to keep a seamless experience.",
