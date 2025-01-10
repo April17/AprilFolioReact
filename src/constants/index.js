@@ -121,7 +121,7 @@ import {
       company_name: "Cognizant",
       icon: cognizant,
       iconBg: "#E6DEDD",
-      date: "August 2021 - Present",
+      date: "August 2021 - June 2023",
       points: [
         "Work as a Front-End Developer using React.js, Redux.js and many other technologies to create user-friendly web applications for clients.",
         "Built reusable cross-platform components and front-end libraries for future use.",
